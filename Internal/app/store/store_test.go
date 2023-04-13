@@ -12,7 +12,7 @@ var (
 func TestMain(m *testing.M) {
 	DatabaseURL := os.Getenv("DATABASE_URL")
 	if DatabaseURL == "" {
-		DatabaseURL = "host=localhost db_name=stocks_test sslmode=disable"
+		DatabaseURL = "host=localhost dbname=stocks_test sslmode=disable"
 	}
 	os.Exit(m.Run())
 }
