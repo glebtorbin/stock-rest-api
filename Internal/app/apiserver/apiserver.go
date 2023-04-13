@@ -4,7 +4,6 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/glebtorbin/stock-rest-api/Internal/app/store"
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"
 )
